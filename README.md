@@ -1,17 +1,19 @@
 # PRD-driven Context Engineering
 
-This project explores a systematic approach to building AI-powered products by integrating progressive documentation with context-aware development workflows. It serves as a practical framework for structuring product requirements and engineering prompts to improve AI agent performance and project clarity.
+This project explores a systematic approach to building AI-powered products by integrating progressive documentation directly into the development workflow. It exists to bridge the gap between product requirements and technical implementation, ensuring AI systems are built with clear, evolving context.
 
 ## Key Features
-*   Implements a structured PRD (Product Requirements Document) template for AI product definition.
-*   Provides workflows for translating high-level requirements into actionable engineering contexts.
-*   Includes examples of prompt chains and context management for iterative development.
+*   **PRD-First Development:** Structures projects around a living Product Requirements Document as the central source of truth.
+*   **Context-Aware Workflows:** Tools and patterns for injecting relevant, up-to-date product context into AI-assisted development cycles.
+*   **Progressive Documentation:** Embeds documentation updates as a core engineering task, keeping specs and code in sync.
 
 ## Tech Stack
-*   Markdown (Documentation)
-*   Python (Example Scripts & Utilities)
+*   Python
+*   OpenAI API
+*   Git
+*   Markdown
 
 ## Getting Started
 1.  Clone the repository: `git clone https://github.com/zoreanuj/PRD-driven-context-engineering.git`
-2.  Review the `/docs` directory for the core PRD template and methodology.
-3.  Explore the `/examples` folder for practical implementations.
+2.  Install dependencies: `pip install -r requirements.txt`
+3.  Set your OpenAI API key: `export OPENAI_API_KEY='your-key'`
